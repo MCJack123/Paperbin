@@ -1,0 +1,1 @@
+﻿public class SceneSwitcher : UnityEngine.MonoBehaviour { public static bool isListView = false; public static void SwitchScene() { UnityEngine.SceneManagement.SceneManager.LoadScene(isListView ? "Scenes/GridView" : "Scenes/ListView"); isListView = !isListView; } }
